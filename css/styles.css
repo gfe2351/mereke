@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* --------------------------------------------------------HEADER--------------------------------------------------------------------------------------- */
@@ -20,7 +20,7 @@ body{
 .gf-header{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 25px;
 }
 
@@ -55,7 +55,7 @@ body{
 
 .gf-logo-container{
     font-size: 64px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: -10px;
 }
 
@@ -121,8 +121,12 @@ body{
 
 .nav-wrapper {
   position: relative;
-  border-top: 1px solid #ccc; /* Тонкая линия */
+  border-top: 1px solid #ccc;
   margin-top: 20px;
+  /* margin-left: 100px; */
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
 }
 
 .nav {
@@ -171,14 +175,35 @@ body{
 .gf-navbar-container{
     display: flex;
     justify-content: space-between;
+    margin-top: -10px;
 }
 
 
 .gf-icons-container{
     display: flex;
+    gap: 30px;
+    margin-top: 5px;
 }
 
+.gf-cart{
+    display: flex;
+    flex-direction: column;
+}
 
+.gf-under-text-cart{
+    font-size: 13px;
+    margin-left: -10px;
+}
+
+.gf-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.gf-under-text-input{
+    font-size: 13px;
+    margin-left: -3px;
+}
 
 
 
