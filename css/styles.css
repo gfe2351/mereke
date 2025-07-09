@@ -1,5 +1,6 @@
 :root{
     --brown-web: #79553D;
+    --borwn-web-dark: #674631;
     --brown-web-oppocity: rgba(#79553D, #79553D, #79553D, 60%);
     --yellow-web: #EBCE4C;
     --gray-web: #595757;
@@ -10,9 +11,196 @@ body{
     padding: 0;
 }
 
-.container, .col, .row{
+.container{
     border: 1px solid black;
 }
+
+/* --------------------------------------------------------HEADER--------------------------------------------------------------------------------------- */
+
+.gf-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+.gf-locate-container{
+    display: flex;
+    gap: 5px;
+}
+
+.gf-btns-container{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.gf-locate{
+    font-size: 14px;
+}
+
+.gf-phone{
+    font-size: 20px;
+}
+
+.gf-text-locate{
+    display: flex;
+    flex-direction: column;
+}
+
+.gf-locate-container>svg{
+    margin-top: 3px;
+    color: var(--brown-web);
+}
+
+.gf-logo-container{
+    font-size: 64px;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+
+.gf-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: -8px;
+}
+
+.gf-links>a{
+    text-decoration: none;
+    color: var(--gray-web);
+    font-size: 20px;
+}
+
+.gf-links>a:active{
+    color: black;
+}
+
+.gf-contact{
+    width: 185px;
+    height: 45px;
+    background: white;
+    border: 2px solid var(--brown-web);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.gf-contact:hover{
+    background: var(--brown-web);
+    color: white;
+    border: none;
+}
+
+.gf-contact:active{
+    background: var(--borwn-web-dark);
+    color: white;
+    border: none;
+}
+
+/* -------------------------------------------------/HEADER/---------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------NAVBAR---------------------------------------------------------------------------------------------- */
+
+/* .gf-navbar{
+    display: flex;
+    gap: 34px;
+}
+
+.gf-navbar>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.gf-navbar>li{
+    list-style-type: none;
+    font-size: 16px;
+}
+ */
+
+
+
+.nav-wrapper {
+  position: relative;
+  border-top: 1px solid #ccc; /* Тонкая линия */
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-link {
+  padding: 10px 0;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  /* font-weight: bold; */
+  font-size: 16px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-underline,
+.nav-hover-underline {
+  position: absolute;
+  top: 0;
+  height: 5px;
+  background-color: var(--brown-web);
+  transition: left 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.nav-underline {
+  z-index: 1;
+}
+
+.nav-hover-underline {
+  z-index: 2;
+  opacity: 0;
+}
+
+
+
+
+.gf-navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gf-icons-container{
+    display: flex;
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------/NAVBAR/---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
