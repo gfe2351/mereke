@@ -1,0 +1,20 @@
+:root{
+    --brown-web: #79553D;
+    --brown-web-oppocity: rgba(#79553D, #79553D, #79553D, 60%);
+    --yellow-web: #EBCE4C;
+    --gray-web: #595757;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container, .col, .row{
+    border: 1px solid black;
+}
+
+
+
+
+
