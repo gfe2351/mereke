@@ -11,11 +11,11 @@
     target.style.width = `${rect.width}px`;
   }
 
-  // Установка постоянной линии под активной ссылкой
+  
   const activeLink = document.querySelector('.nav-link.active');
   setUnderline(activeLink, underline);
 
-  // Наведение — отображение временной полоски
+
   links.forEach(link => {
     link.addEventListener('mouseenter', () => {
       setUnderline(link, hoverUnderline);

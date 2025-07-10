@@ -185,6 +185,15 @@ body{
     margin-top: 5px;
 }
 
+.gf-icons-container>a{
+    text-decoration: none;
+    color: black;
+}
+
+.gf-icons-container>a:hover{
+    color: var(--brown-web);
+}
+
 .gf-cart{
     display: flex;
     flex-direction: column;
@@ -210,6 +219,72 @@ body{
 
 
 /* -------------------------------------------------/NAVBAR/---------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------POSTER---------------------------------------------------------------------------------------------- */
+
+.gf-poster-container{
+    background: var(--gray-web);
+}
+
+.gf-btn-rent{
+    width: 290px;
+    height: 70px;
+    border: none;
+    border-radius: 7px;
+    background: var(--brown-web);
+    color: white;
+    font-size: 24px;
+}
+
+.gf-btn-rent:hover{
+    background: var(--borwn-web-dark);
+}
+
+.gf-text-poster>h1{
+    color: var(--yellow-web);
+    font-size: 96px;
+}
+
+.gf-text-poster{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+}
+
+.gf-poster{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gf-poster>img{
+    margin-top: 50px;
+}
+
+
+
+
+/* -------------------------------------------------/POSTER/---------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------CATALOG---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------------------------------/CATALOG/---------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
 
 
 
