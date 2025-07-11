@@ -1,4 +1,5 @@
 
+// ----------------------------------------------------------------------------------------------------
   const nav = document.querySelector('.nav');
   const links = document.querySelectorAll('.nav-link');
   const underline = document.querySelector('.nav-underline');
@@ -25,7 +26,7 @@
       hoverUnderline.style.opacity = '0';
     });
   });
-
+// ----------------------------------------------------------------------------------------------------
 
 
 

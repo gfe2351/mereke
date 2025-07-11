@@ -268,19 +268,153 @@ body{
 
 /* -------------------------------------------------CATALOG---------------------------------------------------------------------------------------------- */
 
+.gf-heading-catalog>h1{
+    font-size: 24px;
+}
 
+.gf-heading-catalog>div{
+    width: 53px;
+    height: 2px;
+    background: black;
+    border: none;
+    margin-top: 30px;
+}
 
+.gf-heading-catalog{
+    justify-items: center;
+    margin-top: 224px;
+}
 
+.gf-heading-categories>h1{
+    font-size: 16px;
+    margin-left: 20px;
+}
 
+.gf-heading-categories>div{
+    width: 200px;
+    height: 2px;
+    background: black;
+    border: none;
+    margin-top: 30px;
+}
 
+.accordion-button:not(.collapsed){
+    color: black;
+    background: none;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.gf-accordion{
+    width: 200px;
+}
+
+.gf-accordion-body{
+    margin-top: -15px;
+}
+
+.accordion-button:not(.collapsed)::after{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.gf-check-national{
+    margin-left: -5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gf-check:focus{
+    color: white;
+    box-shadow: none;
+    border: 1px solid #D9D9D9;
+}
+
+.gf-check{
+    border: 1px solid #D9D9D9;
+}
+
+.gf-catalog-container{
+    margin-top: 52px;
+    display: flex;
+}
+
+.gf-catalog{
+    max-width: 900px;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.gf-catalog>div{
+    /* border: 1px solid black; */
+}
+
+.gf-catalog-panel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gf-catalog-panel>span{
+    font-size: 16px;
+}
+
+.gf-catalog-panel>input{
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 32px;
+    font-size: 16px;
+}
+
+.gf-card{
+    width: 270px;
+    height: 335px;
+    border: 1px solid black;
+}
+
+.gf-card-row{
+    gap: 30px;
+}
+
+.gf-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 12px;
+}
+
+.gf-card-num-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.gf-card-num-link:hover{
+    color: var(--brown-web);
+}
 
 
 /* -------------------------------------------------/CATALOG/---------------------------------------------------------------------------------------------- */
 
+/* -------------------------------------------------FOOTER---------------------------------------------------------------------------------------------- */
 
 
 
 
+
+
+
+
+
+
+
+/* -------------------------------------------------/FOOTER/---------------------------------------------------------------------------------------------- */
 
 
 
