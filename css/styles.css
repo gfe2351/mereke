@@ -375,7 +375,9 @@ body{
 .gf-card{
     width: 270px;
     height: 335px;
-    border: 1px solid black;
+    border-radius: 7px;
+    border: 1px solid rgba(black, black, black, 20%);
+    background: #F6F6F6;
 }
 
 .gf-card-row{
@@ -404,11 +406,100 @@ body{
 
 /* -------------------------------------------------FOOTER---------------------------------------------------------------------------------------------- */
 
+footer{
+    margin-top: 100px;
+    height: 460px;
+    background: #E9EAEE;
+}
 
+.gf-footer-logo{
+    font-size: 64px;
+}
 
+.gf-footer-links>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--gray-web);
+}
 
+.gf-footer-links>a:active{
+    color: black;
+}
 
+.gf-footer-links{
+    margin-left: 90px;
+    display: flex;
+    gap: 20px;
+}
 
+.gf-footer-socialnetwork{
+    display: flex;
+    gap: 35px;
+}
+
+.gf-footer-rowone{
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+}
+
+.gf-footer-link>a{
+    text-decoration: none;
+    color: var(--gray-web);
+    font-size: 16px;
+}
+
+.gf-footer-link{
+    list-style-type: none;
+}
+
+.gf-footer-link>a:hover{
+    margin-left: 10px;
+    color: var(--brown-web);
+}
+
+.gf-footer-heading-links{
+    font-size: 22px;
+    color: black;
+}
+
+.gf-footer-list-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gf-footer-rowtwo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gf-footer-heading-contact{
+    font-size: 22px;
+}
+
+.gf-footer-rowthree{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gf-footer-list-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gf-footer-container-into{
+    position: relative;
+    top: 30px;
+    max-width: 909px;
+    display: flex;
+    gap: 150px;
+}
 
 
 
