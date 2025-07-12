@@ -502,15 +502,185 @@ footer{
 }
 
 
-
-
-
 /* -------------------------------------------------/FOOTER/---------------------------------------------------------------------------------------------- */
 
+/* -------------------------------------------------PRODUCT---------------------------------------------------------------------------------------------- */
 
+.gf-product-main-images{
+    width: 535px;
+    height: 480px;
+    /* border: 1px solid rgba(black, black, black, 20%); */
+    /* border: 1px solid black; */
+    background: #F6F6F6;
+}
 
+.gf-product-secondary-images{
+    width: 170px;
+    height: 155px;
+    /* border: 1px solid rgba(black, black, black, 20%); */
+    /* border: 1px solid black; */
+    background: #F6F6F6;
+}
 
+.gf-product-container-images-row{
+    display: flex;
+    gap: 12px;
+}
 
+.gf-product-container-images{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.gf-product-container{
+    display: flex;
+    gap: 63px;
+    margin-top: 60px;
+}
+
+.gf-product-main-heading{
+    font-size: 32px;
+}
+
+.gf-product-size-row{
+    display: flex;
+    gap: 15px;
+}
+
+.gf-product-size-col{
+    font-size: 20px;
+}
+
+.gf-product-size-heading{
+    font-size: 20px;
+    color: black;
+}
+
+.gf-product-wardrobe-container, .gf-product-sex-container, .gf-product-quantity-container{
+    display: flex;
+    gap: 10px;
+}
+
+.gf-product-wardrobe-heading, .gf-product-sex-heading, .gf-product-quantity-heading{
+    font-size: 16px;
+    color: black;
+}
+
+.gf-product-wardrobe, .gf-product-sex, .gf-product-quantity{
+    font-size: 16px;
+    color: var(--gray-web);
+}
+
+.gf-product-information{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gf-product-information-cost{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#gf-quantity{
+  width: 40px;
+  height: 34px;
+  text-align: center;
+  border: 1px solid var(--gray-web);
+  background: #F6F6F6;
+  border-radius: 3px;
+}
+
+.gf-quantity-di{
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--gray-web);
+  background: #F6F6F6;
+  font-size: 10px;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.gf-product-cost{
+    font-size: 20px;
+}
+
+#gf-total-price{
+    font-size: 24px;
+    color: var(--brown-web);
+}
+
+.gf-product-first-calendar,.gf-product-twice-calendar>label{
+    font-size: 16px;
+    color: black;
+}
+
+.gf-product-first-calendar>input{
+    width: 150px;
+}
+
+.gf-product-twice-calendar>input{
+    width: 150px;
+}
+
+.gf-product-dates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gf-product-btn-inbasket{
+    width: 130px;
+    height: 50px;
+    background: var(--brown-web);
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.gf-product-btn-inbasket:hover{
+    background: var(--borwn-web-dark);
+    color: white;
+}
+
+.gf-product-btn-inbasket:active{
+    background: var(--brown-web);
+}
+
+.gf-product-btn-rentnow{
+    width: 230px;
+    height: 50px;
+    background: var(--brown-web);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.gf-product-btn-rentnow:hover{
+    background: var(--borwn-web-dark);
+    color: white;
+}
+
+.gf-product-btn-rentnow:active{
+    background: var(--brown-web);
+}
+
+.gf-product-information-btn{
+    display: flex;
+    gap: 19px;
+}
+
+.gf-product-information-panels{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* -------------------------------------------------/PRODUCT/---------------------------------------------------------------------------------------------- */
 
 
 

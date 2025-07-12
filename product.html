@@ -6,35 +6,9 @@
     <link rel="shortcut icon" href="images/logo .png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/mobile.css">
-    <title>Главная</title>
+    <title></title>
 </head>
 <body>
-    <!-- --------------------------------------------------BOOTSTRAP--------------------------------------------------------------------- -->
-<!--     <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="row">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt col"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-                    </svg>
-                    <i class="col">Адрес:</br>ул.Сейфулина д.25 кв. 41,</br>подъезд 3, Astana, Kazakhstan</i>
-                </div>
-            </div>
-    
-    
-            <div class="col gf_logo">MEREKE</div>
-
-            <div class="col">
-                <div class="gf_btn">Связаться</div>
-            </div>
-        </div>
-    </div> -->
-    <!-- --------------------------------------------------/BOOTSTRAP/--------------------------------------------------------------------- -->
-
 
 <div class="container-xl container-sm gf-header ">
     <div class="gf-locate-container">
@@ -140,194 +114,114 @@
 </div>
 
 
-<div class="container-fluid gf-poster-container">
 
-    <div class="container gf-poster">
-    <div class="gf-text-poster">
-        <h1>Прокат</br>костюмов</h1>
-        <button class="gf-btn-rent">забронировать</button>
+<div class="container gf-product-container">
+
+    <div class="gf-product-container-images">
+        <div class="gf-product-main-images"></div>
+
+        <div class="gf-product-container-images-row">
+            <div class="gf-product-secondary-images"></div>
+            <div class="gf-product-secondary-images"></div>
+            <div class="gf-product-secondary-images"></div>
+        </div>
     </div>
 
-    <img src="images/right (1).png" alt="images">
+    <div class="gf-container-product-information">
+        <div class="gf-product-information">
+        <span class="gf-product-main-heading">КАЗАХСКИЙ НАЦИОНАЛЬНЫЙ КОСТЮМ</span>
+
+        <div class="gf-product-size-container">
+            <span class="gf-product-size-heading">Размеры</span>
+            <div class="gf-product-size-row">
+                <div class="gf-product-size-col">M</div>
+                <div class="gf-product-size-col">L</div>
+                <div class="gf-product-size-col">XL</div>
+            </div>
+        </div>
+
+        <div class="gf-product-wardrobe-container">
+            <span class="gf-product-wardrobe-heading">Гардероб:</span>
+            <span class="gf-product-wardrobe">Костюм</span>
+        </div>
+
+        <div class="gf-product-sex-container">
+            <span class="gf-product-sex-heading">Пол:</span>
+            <span class="gf-product-sex">Мужской</span>
+        </div>
+
+        <div class="gf-product-quantity-container">
+            <span class="gf-product-quantity-heading">Доступное количество:</span>
+            <span class="gf-product-quantity">9</span>
+            <span class="gf-product-quantity">шт</span>
+        </div>
     </div>
+    <hr>
+
+    <div class="gf-product-information-panels">
+<!--         <div class="gf-product-information-cost">
+            <span class="gf-product-cost">Цена:</span>
+            <span>2000</span>
+            <span>тг</span>
+        </div> -->
+
+        <div class="gf-product-information-cost">
+            <span class="gf-product-cost">Цена:</span>
+            <span id="gf-total-price">2 000 ₸</span>
+        
+            <input type="number" id="gf-quantity" value="1" min="1">
+            <button class="gf-quantity-di" id="gf-quantity-decrease">-</button>
+            <button class="gf-quantity-di" id="gf-quantity-increase">+</button>
+        </div>
+
+        <div class="gf-product-information-calendar">
+            <form class="gf-product-dates">
+                <div class="form-group gf-product-first-calendar">
+                    <label for="inputDate">Укажите первую дату бронирования:</label>
+                    <input type="date" class="form-control">
+                </div>
+
+                <div class="form-group gf-product-twice-calendar">
+                    <label for="inputDate">Укажите вторую дату бронирования:</label>
+                    <input type="date" class="form-control">
+                </div>
+            </form>
+        </div>
+
+        <div class="gf-product-information-btn">
+            <button class="gf-product-btn-inbasket">в корзину</button>
+            <button class="gf-product-btn-rentnow">забронировать сейчас</button>
+        </div>
+
+    </div>
+
+    </div>
+
 
 </div>
 
 
-<div class="container gf-heading-catalog-container">
-
-    <div class="gf-heading-catalog">
-    <h1>КАТАЛОГ</h1>
-    <div></div>
-    </div>
-</div>
-
-<div class="container gf-catalog-container">
-
-    <div class="gf-categor-container">
-        <div class="gf-heading-categories">
-        <h1>КАТЕГОРИИ</h1>
-        <div></div>
-        </div>
-
-        <div class="accordion accordion-flush gf-accordion">
-            <div class="accordion-item gf-accordion-item">
-                <h2 class="accordion-header gf-accordion-header">
-                    <button class="accordion-button collapsed gf-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Национальность</button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body gf-accordion-body">
-
-                        <div class="gf-check-national">
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Казахский</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Корейский</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Кавказский</label>
-                        </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="accordion-item gf-accordion-item">
-                <h2 class="accordion-header gf-accordion-header">
-                    <button class="accordion-button collapsed gf-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Гардероб</button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body gf-accordion-body">
-
-                        <div class="gf-check-national">
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Костюм</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Кимешек</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Камзол</label>
-                        </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="accordion-item gf-accordion-item">
-                <h2 class="accordion-header gf-accordion-header">
-                    <button class="accordion-button collapsed gf-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Размер</button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body gf-accordion-body">
-
-                        <div class="gf-check-national">
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">L</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">M</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">XL</label>
-                        </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="accordion-item gf-accordion-item">
-                <h2 class="accordion-header gf-accordion-header">
-                    <button class="accordion-button collapsed gf-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Тип</button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body gf-accordion-body">
-
-                        <div class="gf-check-national">
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Мужской</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Женский</label>
-                        </div>
-
-                        <div class="form-check">
-                            <input class="form-check-input gf-check" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Унисекс</label>
-                        </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-       
-        </div>
-
-        </div>
-
-
-        <div class="container gf-catalog">
-            <div class="gf-catalog-panel">
-                <span>Найдено: 38 товаров</span>
-                <input type="text" placeholder="Поиск">
-            </div>
-            
-            <div class="gf-card-container">
-            <div class="row gf-card-row">
-                <div class="col-4 gf-card"></div>
-                <div class="col-4 gf-card"></div>
-                <div class="col-4 gf-card"></div>
-            </div>
-
-            <div class="row gf-card-row">
-                <div class="col-4 gf-card"></div>
-                <div class="col-4 gf-card"></div>
-                <div class="col-4 gf-card"></div>
-            </div>
-
-            <div class="row gf-card-row">
-                <div class="col-4 gf-card"></div>
-                <div class="col-4 gf-card"></div>
-                <div class="col-4 gf-card"></div>
-            </div>
-            </div>
-
-            <div class="row gf-card-num mx-auto">
-                <div class="col"><a class=" gf-card-num-link" href="#">1</a></div>
-                <div class="col"><a class=" gf-card-num-link" href="#">2</a></div>
-                <div class="col"><a class=" gf-card-num-link" href="#">3</a></div>
-            </div>
-        </div>
-    </div>
 
 
 
-    <footer class="container-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="container-fluid" style="margin-top: 329px;">
 
         <div class="container gf-footer-container-into" >
 
@@ -388,46 +282,6 @@
         </div>  
 
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-
-
-
-
- 
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <script src="js/bootstrap.bundle.js"></script>
